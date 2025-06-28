@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4PyChan</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <h1>4PyChan Board</h1>
+
+  <div id="threads-container">
+    <!-- Threads will be loaded here -->
+  </div>
+
+  <form id="new-thread-form" enctype="multipart/form-data">
+    <input type="text" name="title" placeholder="Thread title" required><br>
+    <textarea name="message" placeholder="Your message" required></textarea><br>
+    <input type="file" name="file" accept=".png,.jpg,.jpeg,.gif"><br>
+    <button type="submit">Post</button>
+  </form>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
